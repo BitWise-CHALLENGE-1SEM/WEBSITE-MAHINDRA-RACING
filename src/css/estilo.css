@@ -19,6 +19,9 @@ header{
     background-color: var(--color1);
     height: 70px;
 }
+header img{
+    height: 65px;
+}
 #nav-menu{
     display: flex;
 }
@@ -34,16 +37,54 @@ header{
     padding: 5px;
 }
 #secao1{
-    margin-top: 20px;
+    padding: 15px;
 }
-
+#secao1 img{
+    width: 98%;
+    height: 700px;
+    position: absolute;
+    border-style: solid;
+    border-color: var(--color2);
+    border-width: 8px;
+}
+#textoSlideshow{
+    position: relative;
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+}
 #secao2{
-    margin-top: 20px;
+    margin-top: 500px;
+    text-align: center;
+    padding: 15px;
+}
+#jogo img{
+    width: 100%;
+    border-style: solid;
+    border-color: var(--color2);
+    border-width: 8px;
 }
 #secao3{
     margin-top: 20px;
+    border-style: solid;
+    border-color: var(--color2);
+    border-width: 8px;
+    margin: 20px;
 }
 #grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    text-align: center 
+
+    
+}
+#problema{
+    border-right: solid;
+    border-color: var(--color2);
+    border-width: 3px;
+    margin: 20px;
+    
+}
+#solucao{
+    margin: 20px;
 }
