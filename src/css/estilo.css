@@ -100,3 +100,21 @@ header img{
     margin: 20px;
     color: var(--color4);
 }
+footer{
+    margin-top: 40px;
+    background-color: var(--color2);
+    
+}
+#conteudoFooter{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: var(--color4);
+    gap: 50px;
+}
+#imgApple{
+    height: 40px;
+}
+#imgGoogle{
+    height: 60px;
+}
