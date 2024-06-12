@@ -149,18 +149,63 @@ nav ul li a:hover {
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 #secao1{
-    padding: 200px 15px 0 15px ;
+    padding-top: 300px;
+    position: relative;
+    background-image: radial-gradient( #444444 ,#222222 );
+    
 }
 
-#secao1 img{
-    width: 98%;
-    height: 700px;
-    position: absolute;
-    border-style: solid;
-    border-color: var(--color4);
-    border-width: 8px;
-    filter: brightness(70%);
+.slider{
+    padding: 0px 0px 0px 400px;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
 }
+
+.slides{
+    width: 350%;
+    height: 800px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 90%;
+    height: 80%;
+    border: 8px solid var(--color5);
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+
+}
+
+
+
 #textoSlideshow{
     position: relative;
     padding: 40px;
@@ -168,6 +213,9 @@ nav ul li a:hover {
     text-align: center;
     color: var(--color4);
 }
+
+
+
 #secao2{
     margin-top: 500px;
     text-align: center;
@@ -193,6 +241,8 @@ nav ul li a:hover {
     border-width: 8px;
     margin-inline: 20px;
 }
+
+
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .container{
     display: flex;
