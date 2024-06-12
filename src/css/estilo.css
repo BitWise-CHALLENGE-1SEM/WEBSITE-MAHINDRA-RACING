@@ -84,7 +84,7 @@ nav ul li a:hover {
     transform: scale(1.08) skew(20deg);
     transition: all .3s;
 }
-/* -------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .cta-button {
     margin: 0px 25px 0px 25px;
     background: var(--color2);
@@ -92,7 +92,7 @@ nav ul li a:hover {
     align-items: center;
     box-shadow: 0 0 0 0 var(--color6);
     outline: 4px solid;
-    border-radius: 7px;
+    border-radius: 30px;
     color: white;
     outline-color: var(--color2);
     outline-offset: 0;
@@ -116,7 +116,7 @@ nav ul li a:hover {
     background: var(--color6);
 }
 
-/* ------------------------------------------------------------------------------------------------------------ */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 #logo-formula{
     width: 250px;
     padding-top: 90px;
@@ -132,7 +132,7 @@ nav ul li a:hover {
 
 .scroll-indicator {
     height: 10px;
-    width: calc(100% - 25rem);
+    width: calc(100% - 15rem);
     position: fixed;
     margin-left: 160px;
     top: 8rem;
@@ -193,7 +193,7 @@ nav ul li a:hover {
     border-width: 8px;
     margin-inline: 20px;
 }
-
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .container{
     display: flex;
     justify-content: space-around;
