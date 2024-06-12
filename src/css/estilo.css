@@ -130,6 +130,23 @@ nav ul li a:hover {
     width: 200px;
 }
 
+.scroll-indicator {
+    height: 10px;
+    width: calc(100% - 15rem);
+    position: fixed;
+    margin-left: 160px;
+    top: 8rem;
+    left: 4rem;
+    z-index: 2;
+  }
+  
+  .scroll-indicator .progress-bar {
+    height: 100%;
+    width: 0;
+    border-radius: 100px;
+    background: linear-gradient(to right, black, #e0042c);
+  }
+
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 #secao1{
     padding: 150px 15px 0 15px ;
