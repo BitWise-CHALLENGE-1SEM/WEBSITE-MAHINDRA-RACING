@@ -18,33 +18,83 @@ body{
     width: 100%;
     background-image: linear-gradient(var(--color5),var(--color4));
 }
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--color1);
-    height: 70px;
+    position: fixed;
+    z-index: 2;
 }
+
 header img{
     height: 65px;
+    margin: 15px;
 }
-#nav-menu{
+
+nav ul {
+    list-style-type: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#nav-menu li{
-    list-style: none;
-    margin-inline: 35px;
+
+nav ul li {
+    margin: auto 15px auto 15px;
 }
-#nav-menu a{
-    text-decoration: none;
-    font-size: 25px;
-    color: var(--color4);
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 30px;  
+    color: white;
     background-color: var(--color2);
-    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+    transition: background-color .3s;
+    transform: skew(-20deg);
 }
+
+.parallelogram-button span {
+    display: inline-block;
+    transform: skew(20deg);
+    transition: all .3s;
+}
+
+
+/* Efeito de hover */
+
+nav ul li a:hover {
+    background-color: var(--color6);
+}
+
+.parallelogram-button span:hover{
+    transform: scale(1.08) skew(20deg);
+    transition: all .3s;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+#logo-formula{
+    width: 250px;
+    padding-top: 90px;
+    background-color: var(--color1);
+    clip-path: polygon(0 0, 100% 55%, 70% 100%, 0% 100%);
+    position: fixed;
+    z-index: 1;
+}
+
+#logo-formula img{
+    width: 200px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 #secao1{
-    padding: 15px;
+    padding: 150px 15px 0 15px ;
 }
+
 #secao1 img{
     width: 98%;
     height: 700px;
