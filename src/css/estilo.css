@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins','sans-serif';
 }
+
 :root{
     --color1: #e0042c;
     --color2: #222222;
@@ -13,11 +14,15 @@
     --color4: #c4dce5;
     --color5: #0c2b43;
     --color6: #113454;
-}   
+    --background: #1F2336;
+    --accent: #F4BD50;
+} 
+
 body{
     width: 100%;
     background-image: linear-gradient(var(--color5),var(--color4));
 }
+
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 header{
     width: 100%;
@@ -34,6 +39,10 @@ header img{
     margin: 15px;
 }
 
+nav{
+    display: flex;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -42,7 +51,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: auto 15px auto 15px;
+    margin: auto 10px auto 10px;
 }
 
 nav ul li a {
@@ -74,6 +83,37 @@ nav ul li a:hover {
 .parallelogram-button span:hover{
     transform: scale(1.08) skew(20deg);
     transition: all .3s;
+}
+/* -------------------------------------------------------------------- */
+.cta-button {
+    margin: 0px 25px 0px 25px;
+    background: var(--color2);
+    padding: 4px 30px 4px 30px;
+    align-items: center;
+    box-shadow: 0 0 0 0 var(--color6);
+    outline: 4px solid;
+    border-radius: 7px;
+    color: white;
+    outline-color: var(--color2);
+    outline-offset: 0;
+    text-shadow: none;
+    cursor: pointer;
+    font-size: 18px;
+    max-width: 160px;
+    width: 100%;
+    height: 45px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    transition: all 550ms cubic-bezier(.36, .63, .5, .73);
+}
+
+.cta-button:hover {
+    box-shadow: 0 0 0 4px white;
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    background: var(--color6);
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */
