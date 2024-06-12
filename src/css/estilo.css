@@ -65,6 +65,7 @@ nav ul li a {
     overflow: hidden;
     transition: background-color .3s;
     transform: skew(-20deg);
+    border-radius: 7px;
 }
 
 .parallelogram-button span {
@@ -149,14 +150,27 @@ nav ul li a:hover {
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 #secao1{
-    padding-top: 300px;
+    padding-top: 150px;
     position: relative;
     background-image: radial-gradient( #444444 ,#222222 );
-    
+    border-bottom: 8px solid var(--color5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+#secao1 h3{
+    color: white;
+    padding-bottom: 50px;
+    font-size: 37px;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.5px;
 }
 
 .slider{
-    padding: 0px 0px 0px 400px;
+    padding: 0px 0px 0px 300px;
     width: 100%;
     height: 800px;
     overflow: hidden;
@@ -179,7 +193,7 @@ nav ul li a:hover {
 }
 
 .slide img{
-    width: 90%;
+    width: 93%;
     height: 80%;
     border: 8px solid var(--color5);
 }
@@ -231,6 +245,10 @@ nav ul li a:hover {
     border-color: var(--color4);
     border-width: 8px;
 }
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 #secao3{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -242,8 +260,6 @@ nav ul li a:hover {
     margin-inline: 20px;
 }
 
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .container{
     display: flex;
     justify-content: space-around;
