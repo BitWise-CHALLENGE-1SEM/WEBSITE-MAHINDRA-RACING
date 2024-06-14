@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario</title>
+    <link rel="stylesheet" href="./src/css/game.css">
+    <link rel="shourtcut icon" href="./img/icon.png">
+</head>
+<body>
+
+    <div class="game-board">
+        
+        <button id="game-over">GAME OVER</button>
+        <img src="./src/img-game/pista de fundo.png" class="clouds">
+
+        <img src="./src/img-game/mario.png" class="mario">
+        <img src="./src/img-game/atackmode.png" class="pipe"> 
+        <audio src="./src/audios/atack_mode_sound.mp3" id="audio"></audio>
+        <audio src="./audios/maro-jump-sound-effect_1.mp3" id="audio-jump"></audio>
+        <audio src="./audios/mario_OonFijd.mp3" id="soundtrack"></audio>
+
+        <div id="score">0</div>
+              
+    </div>
+
+    <script src="./src/js/game.js"></script>
+
+</body>
+</html>
