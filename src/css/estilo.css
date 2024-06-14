@@ -223,6 +223,7 @@ nav ul li a:hover {
 #secao1-2{
     width: 100%;
     display:flex;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
